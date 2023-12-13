@@ -8,7 +8,7 @@ import keyboard
 
 #----------------------------------------------------------------------
 
-# Funcao de envio de mensagem via API Telegram
+# Telegram function
 def send_message(token, chat_id, message):
     try:
         data = {"chat_id": chat_id, "text": message}
